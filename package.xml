@@ -1,0 +1,36 @@
+<package format="3">
+  <name>ueye_cam</name>
+  <version>2.0.0</version>
+  <description>
+    A ROS node that wraps the driver API for UEye cameras
+    by IDS Imaging Development Systems GMBH.
+  </description>
+  <maintainer email="anqixu@cim.mcgill.ca">Anqi Xu</maintainer>
+  <license>BSD</license>
+
+  <author email="anqixu@cim.mcgill.ca">Anqi Xu</author>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <build_depend>libtclap-dev</build_depend>
+
+  <depend>camera_calibration_parsers</depend>
+  <depend>camera_info_manager</depend>
+  <depend>image_transport</depend>
+  <depend>rclcpp</depend>
+  <depend>rclcpp_components</depend>
+  <depend>rcl_interfaces</depend>
+  <depend>sensor_msgs</depend>
+
+  <exec_depend>ament_index_python</exec_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+
+</package>
